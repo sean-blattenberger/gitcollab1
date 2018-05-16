@@ -11,4 +11,13 @@ const arrayOfObjects = [
     name: "Alex",
     age: "19"
   }
-]
+];
+
+const numArray = [12, 14, 65];
+
+
+function multiplyArray(arr) {
+  return arr.reduce((acc, num) => acc *= num, 1);
+}
+
+let multipliedArray = multiplyArray(numArray);
