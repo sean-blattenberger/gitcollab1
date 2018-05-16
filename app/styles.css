@@ -4,12 +4,15 @@ header {
   grid-gap: 10px;
   align-items: end;
   border-bottom: .3rem solid darkgrey;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 h1 {
   grid-column: 1/span 2;
   margin-left: 1rem;
   color: orange;
+  font-size: 42px;
+  background: papayawhip;
 }
 
 nav {
@@ -19,9 +22,13 @@ nav {
 nav a {
   text-decoration: none;
   color: darkgrey;
+<<<<<<< HEAD
   font-size: 12;
   background-color: aqua;
   margin: 0;
   border-bottom: black;
   border-top: red;
+=======
+  font-size: 20px;
+>>>>>>> sean
 }
