@@ -19,5 +19,9 @@ nav {
 nav a {
   text-decoration: none;
   color: darkgrey;
-  font-size:
+  font-size: 12;
+  background-color: aqua;
+  margin: 0;
+  border-bottom: black;
+  border-top: red;
 }
